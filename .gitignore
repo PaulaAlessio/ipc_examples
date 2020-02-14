@@ -1,0 +1,43 @@
+## Emacs temporary files
+*~
+\#*
+*\#
+.\#
+
+# vim swap files and aux files for plugins
+*.swp
+*.swa
+*clang_complete*
+*ctags*
+
+# Eclipse aux files 
+## SOMEBODY USING ECLIPSE SHOULD ADD THEM
+
+# Binary files
+*.o
+*.exe
+*.a
+*.so
+*.so.*
+*.lib
+*.out
+envpath
+#*.pdf I want to have PDF's!
+
+# Ignore documentation
+doc
+html
+latex
+
+# EPICS
+*envPaths
+O.Common/
+O.linux-x86_64/
+db
+dbd
+bin
+obj
+lib
+
+# Configuration files
+*.swf
